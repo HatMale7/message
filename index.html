@@ -5,35 +5,22 @@
         <meta content="width=device-width" name="viewport">
         <meta content="#000000" name="theme-color">
         <meta content="noindex" name="robots">
-        <title>Сервер не найден</title>
+        <title>...</title>
     </head>
     <body>
 		<main>
-			<div id="foxyerror">
+			<div id="message">
 				<h1>
-					<img src="/foxyerror/images/ie-info.png" alt="Информация"/> Невозможно отобразить страницу
+					<img src="/message/images/silverusruined.png" alt="s1lverus"/> Фокси... Ты зря этого сделал..
 				</h1>
-				<p>Возможно, страница, которую вы ищете, была удалена, у нее изменилось название или она временно недоступна.</p>
-				<hr>
-				<p>Другие возможности:</p>
-				<ul>
-					<li>Проверьте правильность адреса страницы в строке адреса.</li>
-					<li>
-						Заходите в <a href="https://tilda.cc/ru/?upm=6048982">https://silverhosting.org</a>
-						домашняя страница, а затем найдите ссылки на нужную вам информацию.
-					</li>
-				</ul>
-				<p>
-					HTTP 404 Файл не найден<br/>GInternet Explorer
-				</p>
 			</div>
 			<style>
 				body, html {
-					background: white;
-					color: black;
+					background: black;
+					color: white;
 				}
 				
-				#foxyerror {
+				#message {
 					font-family: "Verdana", Verdana, Arial, sans-serif;
 					-moz-osx-font-smoothing: grayscale;
 					filter: contrast(1);
@@ -44,24 +31,18 @@
 				}
 				
 				h1 {
-					font-weight: 500;
-					font-size: 18px;
+					font-weight: lighter;
+					font-size: 32px;
+					text-align: center;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: transLateX(-50%) transLateY(-50%);
 				}
 				
 				h1 img {
-					vertical-align: middle;
-					margin-right: 0.4rem;
-				}
-				
-				hr {
-					color: #DDDDDD;
-					margin-top: 1rem;
-					margin-bottom: 1.25rem;
-				}
-				
-				a {
-					text-decoration: underline;
-					color: #ff0000;
+					max-width: 100%;
+					object-fit: contain;
 				}
 			</style>
 		   </main>
