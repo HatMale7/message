@@ -11,7 +11,7 @@
 		<main>
 			<div id="message">
 				<h1>
-					<img src="/message/images/silverusruined.png" alt="s1lverus"/> Фокси... Ты зря этого сделал..
+					<img src="/message/images/silverusruined.png" id="silverus" alt="s1lverus"/> Фокси... Ты зря этого сделал..
 				</h1>
 			</div>
 			<style>
@@ -40,12 +40,9 @@
 					transform: transLateX(-50%) transLateY(-50%);
 				}
 				
-				h1 img {
-					width: 30%;
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: transLateX(-50%) transLateY(-50%);
+				#silverus {
+					max-width: 100%;
+					object-fit: contain;
 				}
 			</style>
 		   </main>
