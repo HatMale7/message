@@ -13,12 +13,6 @@
 				<h1>
 					<img src="/message/images/silverusruined.png" id="silverus" alt="s1lverus"/> Фокси... Ты зря этого сделал..
 				</h1>
-				
-				<iframe src="/message/audio/corridor.mp3" allow="autoplay" id="iframeAudio" style="display: none"></iframe>
-				
-				<audio autoplay loop id="playAudio">
-					<source src="/message/audio/corridor.mp3" type="audio/mp3">
-				</audio>
 			</div>
 			<style>
 				body, html {
@@ -45,15 +39,6 @@
 					object-fit: contain;
 				}
 			</style>
-			<script>
-				var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-				if (!isChrome){
-					$('#iframeAudio').remove()
-				}
-				else {
-					$('#playAudio').remove()
-				}
-			</script>
 		   </main>
 		</body>
 	</html>
